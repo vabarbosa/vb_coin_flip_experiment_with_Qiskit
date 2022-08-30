@@ -12,7 +12,7 @@ from qiskit.tools.jupyter import *
 from qiskit.visualization import *
 from ibm_quantum_widgets import *
 from qiskit.providers.aer import QasmSimulator
-IBMQ.save_account('ff29d6e2acca3b3f5083c0b430f55fe4209fbe3d444368f324cba0304615e90badc2e35f725690581c5df553562fbc232d495646242112203760831061917639')
+IBMQ.save_account()
 # Loading your IBM Quantum account(s)
 provider = IBMQ.load_account()
 
